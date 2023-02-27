@@ -1,0 +1,13 @@
+.team {
+	margin-top: 120px;
+	.team__cards {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 -10px;
+	}
+}
+.container {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0 10px;
+}

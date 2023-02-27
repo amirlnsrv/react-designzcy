@@ -1,0 +1,33 @@
+.container {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.intro {
+	margin-top: 98.86px;
+}
+.intro__inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.intro__text {
+}
+.intro__title {
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 85px;
+	color: #3d3d3f;
+}
+.intro__subtitle {
+	margin-top: 42px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	line-height: 24px;
+	color: #3d3d3f;
+}
+.btn__intro {
+}
+.intro__img {
+}

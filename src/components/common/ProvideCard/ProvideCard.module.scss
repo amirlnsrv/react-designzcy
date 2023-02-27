@@ -1,0 +1,41 @@
+.provide__card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 33.333%;
+	position: relative;
+}
+.provide__card:nth-child(2)::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 65%;
+	z-index: 1;
+	width: 242px;
+	border: 1px solid rgba(235, 235, 235, 0.8);
+	transform: rotate(90deg);
+}
+.provide__card:nth-child(2)::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 65%;
+	z-index: 1;
+	width: 242px;
+	border: 1px solid rgba(235, 235, 235, 0.8);
+	transform: rotate(90deg);
+}
+.provide__title {
+	margin-top: 23px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 47px;
+	color: #3d3d3f;
+}
+.provide__subtitle {
+	margin-top: 13px;
+	font-size: 24px;
+	line-height: 31px;
+	color: #3d3d3f;
+	opacity: 0.7;
+}

@@ -1,0 +1,42 @@
+.offering__card {
+	width: 30%;
+	position: relative;
+	background: #ffffff;
+	box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
+	border-radius: 23px;
+}
+.offering__inner {
+	max-width: 277px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	padding: 75px 31px 39px;
+}
+.offering__img {
+	position: absolute;
+	top: -50px;
+	background-color: #ffffff;
+	box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
+	border-radius: 555px;
+	padding: 23px;
+}
+
+.offering__title {
+	margin-top: 3px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 31px;
+	color: #3d3d3f;
+}
+.offering__subtitle {
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #595959;
+}
+.offering__btn {
+	margin-top: 27px;
+}

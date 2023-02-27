@@ -1,0 +1,21 @@
+.latest__card {
+	border-radius: 11px;
+	width: 32%;
+	margin-top: 28px;
+	filter: drop-shadow(0px 4px 22px rgba(95, 95, 95, 0.05));
+}
+.latest__img img {
+	max-width: 100%;
+	border-radius: 11px 11px 0 0;
+	filter: drop-shadow(0px 4px 22px rgba(95, 95, 95, 0.05));
+}
+.latest__title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+	color: #3d3d3f;
+	padding: 19px 34px 25px;
+	background-color: #ffffff;
+	border-radius: 0 0 11px 11px;
+	text-align: center;
+}

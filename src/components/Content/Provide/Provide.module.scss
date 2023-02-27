@@ -1,0 +1,23 @@
+.container {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.provide {
+	margin-top: 149px;
+}
+.provide__title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
+	color: #3d3d3f;
+}
+.provide__cards {
+	display: flex;
+	align-items: center;
+	border: 2px solid rgba(235, 235, 235, 0.8);
+	border-radius: 17px;
+	padding: 54px 67px;
+}

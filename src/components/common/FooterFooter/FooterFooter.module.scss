@@ -1,0 +1,36 @@
+.footer__footer {
+	margin-top: 29px;
+	.footer__line {
+		width: 100%;
+		height: 1px;
+		background: #969696;
+		opacity: 0.2;
+		margin-bottom: 26px;
+	}
+	.container {
+		max-width: 1220px;
+		margin: 0 auto;
+		padding: 0 10px;
+		.footer__inner {
+			display: flex;
+			justify-content: space-between;
+		}
+		.footer__copy {
+			font-size: 14px;
+			line-height: 14px;
+			color: #646464;
+		}
+		.footer__nav {
+			display: flex;
+			margin: 0 -26px;
+			.footer__link {
+				margin: 0 26px;
+			}
+			.footer__link a {
+				font-size: 14px;
+				line-height: 14px;
+				color: #646464;
+			}
+		}
+	}
+}

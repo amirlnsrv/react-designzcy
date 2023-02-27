@@ -1,0 +1,43 @@
+.team__card {
+	padding: 0 10px 27px;
+	background: linear-gradient(
+		138.88deg,
+		rgba(254, 254, 254, 0) -2.44%,
+		#f9f9f9 -2.43%,
+		rgba(254, 254, 254, 0.51) 98.26%
+	);
+	border: 1px solid #eeeff1;
+	filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
+	border-radius: 10px;
+	margin: 0 10px;
+	.team__img img {
+		max-width: 100%;
+	}
+	.team__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: -82px;
+		position: relative;
+		z-index: 5;
+		.team__title {
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 30px;
+			color: #3d3d3f;
+		}
+		.team__subtitle {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 22px;
+			color: #999999;
+		}
+		.team__btns {
+			display: flex;
+			margin-top: 17px;
+			.team__btn {
+				margin: 0 5px;
+			}
+		}
+	}
+}
