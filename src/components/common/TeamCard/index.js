@@ -16,17 +16,17 @@ export const TeamCard = ({ src, title, subtitle, link }) => {
         <div className={classes.team__btns}>
           <div className={classes.team__btn}>
             <a href={link}>
-              <img src={ico1} alt=""></img>
+              <img src={ico1} alt="" />
             </a>
           </div>
           <div className={classes.team__btn}>
             <a href={link}>
-              <img src={ico2} alt=""></img>
+              <img src={ico2} alt="" />
             </a>
           </div>
           <div className={classes.team__btn}>
             <a href={link}>
-              <img src={ico3} alt=""></img>
+              <img src={ico3} alt="" />
             </a>
           </div>
         </div>
